@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://qaxoxrq5v3fp"]
+
+[ext_resource type="Texture2D" uid="uid://bs4a63y457ukj" path="res://Png/star.svg" id="1_22467"]
+
+[node name="GPUParticles2D" type="GPUParticles2D"]
+texture = ExtResource("1_22467")

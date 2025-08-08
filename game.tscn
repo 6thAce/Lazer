@@ -1,0 +1,13 @@
+[gd_scene format=3 uid="uid://dikrlgejj741s"]
+
+[node name="Game" type="Node2D"]
+
+[node name="CanvasLayer" type="CanvasLayer" parent="."]
+
+[node name="ColorRect" type="ColorRect" parent="CanvasLayer"]
+anchors_preset = -1
+anchor_right = 1.0
+anchor_bottom = 1.003
+offset_right = 2.0
+offset_bottom = 0.0559692
+color = Color(0, 0.160784, 0.176471, 1)
