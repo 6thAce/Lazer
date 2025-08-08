@@ -1,4 +1,7 @@
-[gd_scene format=3 uid="uid://dikrlgejj741s"]
+[gd_scene load_steps=2 format=3 uid="uid://dikrlgejj741s"]
+
+[sub_resource type="Environment" id="Environment_mwb40"]
+glow_enabled = true
 
 [node name="Game" type="Node2D"]
 
@@ -11,3 +14,6 @@ anchor_bottom = 1.003
 offset_right = 2.0
 offset_bottom = 0.0559692
 color = Color(0, 0.160784, 0.176471, 1)
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="."]
+environment = SubResource("Environment_mwb40")
