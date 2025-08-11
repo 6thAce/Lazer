@@ -1,15 +1,8 @@
 [gd_scene load_steps=2 format=3 uid="uid://trcofbiympep"]
 
-[ext_resource type="Script" uid="uid://423glldesmyh" path="res://ray_cast_2d.gd" id="1_q2qul"]
+[ext_resource type="PackedScene" uid="uid://wg3rk5wqokpt" path="res://lazer.tscn" id="1_q2qul"]
 
 [node name="PlayerShip" type="Node2D"]
 
-[node name="RayCast2D" type="RayCast2D" parent="."]
-enabled = false
-script = ExtResource("1_q2qul")
-
-[node name="Line2D" type="Line2D" parent="RayCast2D"]
-modulate = Color(0.665604, 1.96133e-06, 4.33177e-07, 1)
-points = PackedVector2Array(0, 0, 100, 0)
-begin_cap_mode = 2
-end_cap_mode = 2
+[node name="lazer" parent="." instance=ExtResource("1_q2qul")]
+target_position = Vector2(1400, 0)
