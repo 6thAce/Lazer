@@ -1,9 +1,5 @@
 @export var color := Color.WHITE: set = set_color
-
-@onready var line_2d: Line2D = %Line2D
-@onready var casting_particles: GPUParticles2D = %CastingParticles2D
-@onready var collision_particles: GPUParticles2D = %CollisionParticles2D
-@onready var beam_particles: GPUParticles2D = %BeamParticles2D
+@onready var line_2d: Line2D = %Line2D@onready var casting_particles: GPUParticles2D = %CastingParticles2D@onready var collision_particles: GPUParticles2D = %CollisionParticles2D@onready var beam_particles: GPUParticles2D = %BeamParticles2D
 
 
 func _ready() -> void:
