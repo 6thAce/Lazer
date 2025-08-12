@@ -1,11 +1,13 @@
-[gd_scene load_steps=3 format=3 uid="uid://dy8gkoupb4oqt"]
+[gd_scene load_steps=4 format=3 uid="uid://dy8gkoupb4oqt"]
 
 [ext_resource type="Texture2D" uid="uid://b5sex77nsh00g" path="res://Png/asteroid.svg" id="1_i2edn"]
+[ext_resource type="Script" uid="uid://ix6krxbj01u0" path="res://astroid.gd" id="1_ihboo"]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_ihboo"]
 radius = 105.0
 
 [node name="Astroid" type="StaticBody2D"]
+script = ExtResource("1_ihboo")
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
 position = Vector2(0, -1)
